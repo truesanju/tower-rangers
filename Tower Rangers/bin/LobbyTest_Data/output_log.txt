@@ -1,0 +1,48 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
+    Vendor:   NVIDIA
+    VRAM:     1969 MB
+    Driver:   10.18.10.4276
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.027 seconds
+Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\System.dll (this message is harmless)
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.880206 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7a4 -> priority: 1 
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.070847 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2474.
+Total: 1.001692 ms (FindLiveObjects: 0.112035 ms CreateObjectMapping: 0.043067 ms MarkObjects: 0.838458 ms  DeleteObjects: 0.007830 ms)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:64012}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
