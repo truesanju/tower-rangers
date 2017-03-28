@@ -17,16 +17,16 @@ Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Ma
 Loading F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.027 seconds
+- Completed reload, in  0.023 seconds
 Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: F:\unity_projects\escGame\Tower Rangers\bin\LobbyTest_Data\Managed\System.dll (this message is harmless)
 desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.880206 ms
+UnloadTime: 0.877311 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 7a4 -> priority: 1 
+  Thread -> id: 15d8 -> priority: 1 
 DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
  
 (Filename:  Line: 447)
@@ -36,13 +36,19 @@ DontDestroyOnLoad only work for root GameObjects or components on root GameObjec
 (Filename:  Line: 447)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.070847 ms
+UnloadTime: 1.216129 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2474.
-Total: 1.001692 ms (FindLiveObjects: 0.112035 ms CreateObjectMapping: 0.043067 ms MarkObjects: 0.838458 ms  DeleteObjects: 0.007830 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2464.
+Total: 0.833942 ms (FindLiveObjects: 0.103602 ms CreateObjectMapping: 0.033128 ms MarkObjects: 0.689983 ms  DeleteObjects: 0.006926 ms)
 
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:64012}
-ServerDisconnected due to error: Timeout
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+ClientDisconnected due to error: Timeout
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 1.787149 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 704.
+Total: 1.238114 ms (FindLiveObjects: 0.053608 ms CreateObjectMapping: 0.045476 ms MarkObjects: 0.977300 ms  DeleteObjects: 0.161427 ms)
 
