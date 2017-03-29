@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\LandManager.cs" />
      <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
      <Compile Include="Assets\Lobby\Scripts\EventSystemChecker.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyCountdownPanel.cs" />
@@ -59,19 +60,12 @@
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
-     <Compile Include="Assets\Scripts\Buy_tower.cs" />
-     <Compile Include="Assets\Scripts\Land.cs" />
-     <Compile Include="Assets\Scripts\Land_manager.cs" />
-     <Compile Include="Assets\Scripts\Mobs.cs" />
-     <Compile Include="Assets\Scripts\Mobs_path.cs" />
-     <Compile Include="Assets\Scripts\Mobs_spawner.cs" />
-     <Compile Include="Assets\Scripts\PlayerStats.cs" />
      <Compile Include="Assets\Scripts\ServerNetworkLedger.cs" />
-     <Compile Include="Assets\Scripts\Tower.cs" />
-     <Compile Include="Assets\Scripts\Tower_blueprint.cs" />
      <Compile Include="Assets\Scripts\ViewScript.cs" />
-     <Compile Include="Assets\Scripts\Waypoints.cs" />
-     <Compile Include="Assets\Scripts\waves.cs" />
+     <Compile Include="Assets\land.cs" />
+     <Compile Include="Assets\mobs.cs" />
+     <Compile Include="Assets\mobsspawner.cs" />
+     <Compile Include="Assets\waypoints.cs" />
      <None Include="Assets\Lobby\Documentation.txt" />
      <None Include="Assets\Lobby\Instruction.txt" />
      <None Include="Assets\Fonts\OpenSans\License!.txt" />
@@ -92,12 +86,6 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Common">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
