@@ -2,7 +2,7 @@
 
 public class Bullet : MonoBehaviour {
 
-    public float bulletSpeed = 0.2f;
+    public float bulletSpeed = 1f;
     private Transform target;
 
     public void setTarget(Transform _target)
@@ -15,7 +15,7 @@ public class Bullet : MonoBehaviour {
         Vector3 dir = target.position - transform.position;
         float bulletDistance = bulletSpeed * Time.deltaTime;
 
-        if (dir.magnitude <1)
+        if (dir.magnitude < bulletDistance || dir.magnitude<1)
         {
             Debug.LogError("works");
             Hit();
@@ -29,6 +29,7 @@ public class Bullet : MonoBehaviour {
     void Hit()
     {
         Destroy(gameObject);
+        Destroy(target.gameObject);
     }
 
 	// Use this for initialization
