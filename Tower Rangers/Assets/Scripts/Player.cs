@@ -3,28 +3,64 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class ViewScript : NetworkBehaviour {
-
-
+public class Player : NetworkBehaviour {
+	//Camera Variables
 	private Vector3 initialCameraPt;
 	public float sensitivity = 2.0f;
 	private Vector3 dragStartPt;
 	private Vector3 position;
 
-	//public float ViewSpeed = 1.0f;
-	// Use this for initialization
-	void Start () {
-		if (!isLocalPlayer)
-			GetComponentInChildren<Camera> ().gameObject.SetActive (false);
-		else {
-			transform.position = new Vector3 (-34.46f, 47.63f, -72.01f);
-			//transform.eulerAngles = new Vector3 (40.84f, 43.831f, 0f);
-			transform.eulerAngles = new Vector3 (0f,46.92f, 0f);
-			GetComponentInChildren<Camera> ().gameObject.transform.eulerAngles = new Vector3 (56.13f, 46.92f, 0f);
-			initialCameraPt = transform.position;
-				}
+	//Game ID variables
+	[SyncVar]
+	int PlayerId = 0;
+	public static HashSet<Player> ActivePlayers = new HashSet<Player>();
 
+	//Networking local player objects
+	public Camera gameCamera;
+	public AudioListener gameAudioListener;
+
+
+	public override void OnStartLocalPlayer(){
+		//turn on our camera and audiolistener for the local player
+		gameCamera.enabled = true;
+		gameAudioListener.enabled = true;
+		gameObject.name = "LOCAL player";
+
+		//TODO get local player id
+
+
+		//Debug.Log ("My game id is " + PlayerId);
+		//TODO, spawn the camera (and alloc map) based off player id 
+
+		//set our player controller and camera
+		transform.position = new Vector3 (-34.46f, 47.63f, -72.01f);
+		transform.eulerAngles = new Vector3 (0f,46.92f, 0f);
+		gameCamera.transform.eulerAngles = new Vector3 (56.13f, 46.92f, 0f);
+		initialCameraPt = transform.position;
+
+		base.OnStartLocalPlayer ();
 	}
+
+	void Start(){
+		ActivePlayers.Add (this);
+		if (isServer) {
+			PlayerId = ActivePlayers.Count;
+		}
+	}
+
+	/*
+	[Command]
+	void CmdGetGameid(){
+		PlayerId++;
+		Debug.Log ("Current number of players is " + PlayerId);
+		RpcSetGameId (PlayerId);
+	}
+		
+	[ClientRpc]
+	void RpcSetGameId(int gameId){
+		this.gameId = gameId;
+	}
+*/
 	
 	// Update is called once per frame
 	void Update () {
