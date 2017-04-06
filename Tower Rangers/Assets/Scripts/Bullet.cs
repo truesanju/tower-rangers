@@ -12,12 +12,13 @@ public class Bullet : MonoBehaviour {
 
     void moveToTarget()
     {
+       
         Vector3 dir = target.position - transform.position;
         float bulletDistance = bulletSpeed * Time.deltaTime;
 
         if (dir.magnitude < bulletDistance || dir.magnitude<1)
         {
-            Debug.LogError("works");
+            
             Hit();
             return;
         }
@@ -40,11 +41,12 @@ public class Bullet : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (target == null)
+        if (target != null)
         {
-            Destroy(gameObject);
+            moveToTarget();
+            
         }
-        moveToTarget();
+        
 	
 	}
 }
