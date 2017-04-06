@@ -24,7 +24,7 @@ public class mobsspawner : MonoBehaviour
 
     public Transform mobsprefab;
 
-    //attach startnode to spawnPoing
+    //attach startnode to spawnPoint
 
     public Transform spawnPoint;
 

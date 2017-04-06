@@ -20,8 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4976054908168156}
   - component: {fileID: 33985639943270718}
-  - component: {fileID: 65946825983898596}
   - component: {fileID: 23659044817910324}
+  - component: {fileID: 114823613164883148}
+  - component: {fileID: 61833139908215494}
   m_Layer: 0
   m_Name: Node
   m_TagString: Untagged
@@ -80,15 +81,31 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1863919625866018}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65946825983898596
-BoxCollider:
+--- !u!61 &61833139908215494
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1863919625866018}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1}
+--- !u!114 &114823613164883148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1863919625866018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db81350cf35d12f49aea962a3658ccdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorwhenhovering: {r: 0.691, g: 0.08401815, b: 0.08401815, a: 0.497}
+  positionOffset: {x: 0, y: 0, z: 0}
+  tower: {fileID: 0}

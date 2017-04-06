@@ -22,26 +22,60 @@ public class LandManager : MonoBehaviour {
 
     //Defensive towers:
     public GameObject basictowerprefab;
-    //public Gameobject icetowerprefab;
-    //public Gameobject lightningtowerprefab;
-    //public Gameobject firetowerprefab;
-    //public Gameobject poisontowerprefab;
+    public GameObject icetowerprefab;
+    public GameObject lightningtowerprefab;
+    public GameObject firetowerprefab;
+    public GameObject poisontowerprefab;
 
     //Offensive towers:
-    //public Gameobject airtowerprefab;
-    //public Gameobject woodtowerprefab;
+    //public GameObject airtowerprefab;
+    //public GameObject woodtowerprefab;
 
-    void Start() {
-        towertobuild = basictowerprefab;
+    //remove upon button
+    //void Start() {
+    //towertobuild = towerprefab;
+    //}
+
+    //private GameObject towertobuild;
+
+    //public GameObject gettowertobuild() {
+    //return towertobuild;
+    //}
+
+    //public void settowertobuild(GameObject tower) {
+    //towertobuild = tower;
+    //}
+    private TowerBlueprint towertobuild;
+
+
+    public bool canbuild {
+        get { return towertobuild != null; } //get boolean result. 
     }
 
-    private GameObject towertobuild;
-
-    public GameObject gettowertobuild() {
-        return towertobuild;
+    public bool haveenoughgold
+    {
+        get { return SinglePlayer.gold >= towertobuild.cost; } //get boolean result. 
     }
 
+    public void buildtoweron(land landd) {
 
+        if (SinglePlayer.gold < towertobuild.cost)
+        {
+            Debug.Log("not enough gold");
+            return;
+        }
+
+        SinglePlayer.gold -= towertobuild.cost;
+
+        GameObject tower = (GameObject)Instantiate(towertobuild.prefab, landd.getbuildposition(), Quaternion.identity);
+        landd.tower=tower;
+
+        Debug.Log("tower build. gold left = "+ SinglePlayer.gold);
+    }
+
+    public void selecttowertobuild(TowerBlueprint tower) {
+        towertobuild = tower;
+     }
     
 
 }
