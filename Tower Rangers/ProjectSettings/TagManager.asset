@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Mob
+  - Spawn1
+  - Spawn2
+  - Spawn3
+  - Spawn4
   layers:
   - Default
   - TransparentFX
