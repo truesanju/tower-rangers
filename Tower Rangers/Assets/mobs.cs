@@ -83,7 +83,7 @@ public class mobs : MonoBehaviour
 
         {
 
-            Destroy(gameObject);
+            EndPath();
 
             return;
 
@@ -93,10 +93,14 @@ public class mobs : MonoBehaviour
 
         target = waypoints.points[waypointIndex];
 
-
-
     }
 
+    void EndPath() {
+
+        SinglePlayer.hp--;
+        Destroy(gameObject);
+        Debug.Log(" remaining hp :" + SinglePlayer.hp);
+    }
 
 
 }

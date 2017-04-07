@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BuyDefensiveTower.cs" />
      <Compile Include="Assets\LandManager.cs" />
      <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
      <Compile Include="Assets\Lobby\Scripts\EventSystemChecker.cs" />
@@ -59,11 +60,17 @@
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerEntry.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
+     <Compile Include="Assets\Mouse.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\IsoCam.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\ServerNetworkLedger.cs" />
+     <Compile Include="Assets\Scripts\SinglePlayer.cs" />
      <Compile Include="Assets\Scripts\Tower.cs" />
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Scripts\TowerBlueprint.cs" />
+>>>>>>> 16d3091122f3224e36050428c441e672d72655ff
      <Compile Include="Assets\land.cs" />
      <Compile Include="Assets\mobs.cs" />
      <Compile Include="Assets\mobsspawner.cs" />
@@ -75,7 +82,11 @@
  <HintPath>D:/Unity3d/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
+<<<<<<< HEAD
  <HintPath>D:/Unity3d/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+=======
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+>>>>>>> 16d3091122f3224e36050428c441e672d72655ff
  </Reference>
  <Reference Include="UnityEngine.PlaymodeTestsRunner">
  <HintPath>D:/Unity3d/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
@@ -87,7 +98,11 @@
  <HintPath>D:/Unity3d/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
+<<<<<<< HEAD
  <HintPath>D:/Unity3d/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+=======
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+>>>>>>> 16d3091122f3224e36050428c441e672d72655ff
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
