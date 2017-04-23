@@ -1,0 +1,155 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   10.18.15.4248
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.750181 ms
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   10.18.15.4248
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 14dc -> priority: 1 
+  Thread -> id: 15d0 -> priority: 1 
+- Completed reload, in  0.039 seconds
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.470384 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 59c -> priority: 1 
+  Thread -> id: 1cac -> priority: 1 
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   10.18.15.4248
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.025 seconds
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\bernard\Desktop\SUTD\unityProjects\Tower Rangers\bin\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.552940 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: fa8 -> priority: 1 
+  Thread -> id: 12b0 -> priority: 1 
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.546733 ms
+creating way point
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+creating way point of length 20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+creating way point
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+creating way point
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Null exception caught
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.817565 ms
+creating way point
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+creating way point of length 20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+creating way point
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+creating way point
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5833.
+Total: 4.872574 ms (FindLiveObjects: 1.506530 ms CreateObjectMapping: 0.203935 ms MarkObjects: 3.144704 ms  DeleteObjects: 0.016957 ms)
+
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 6088.
+Total: 8.084662 ms (FindLiveObjects: 0.817971 ms CreateObjectMapping: 0.738985 ms MarkObjects: 6.281823 ms  DeleteObjects: 0.245436 ms)
+
+Null exception caught
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

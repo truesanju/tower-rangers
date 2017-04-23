@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 9b278f92ca6199946b67224e57ee4b61
+timeCreated: 1492437021
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Array
+    100002: Cube_1
+    100004: Cube_2
+    100006: Cube_3
+    100008: Cube_4
+    100010: Cube_5
+    100012: Cube_6
+    100014: Cube_7
+    100016: Cube_8
+    100018: Cube_9
+    100020: Cylinder
+    100022: //RootNode
+    400000: Array
+    400002: Cube_1
+    400004: Cube_2
+    400006: Cube_3
+    400008: Cube_4
+    400010: Cube_5
+    400012: Cube_6
+    400014: Cube_7
+    400016: Cube_8
+    400018: Cube_9
+    400020: Cylinder
+    400022: //RootNode
+    2300000: Cube_1
+    2300002: Cube_2
+    2300004: Cube_3
+    2300006: Cube_4
+    2300008: Cube_5
+    2300010: Cube_6
+    2300012: Cube_7
+    2300014: Cube_8
+    2300016: Cube_9
+    2300018: Cylinder
+    3300000: Cube_1
+    3300002: Cube_2
+    3300004: Cube_3
+    3300006: Cube_4
+    3300008: Cube_5
+    3300010: Cube_6
+    3300012: Cube_7
+    3300014: Cube_8
+    3300016: Cube_9
+    3300018: Cylinder
+    4300000: Cylinder
+    4300002: Cube_9
+    4300004: Cube_8
+    4300006: Cube_7
+    4300008: Cube_6
+    4300010: Cube_5
+    4300012: Cube_4
+    4300014: Cube_3
+    4300016: Cube_2
+    4300018: Cube_1
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Array
+        weight: 1
+      - path: Array/Cube_1
+        weight: 1
+      - path: Array/Cube_2
+        weight: 1
+      - path: Array/Cube_3
+        weight: 1
+      - path: Array/Cube_4
+        weight: 1
+      - path: Array/Cube_5
+        weight: 1
+      - path: Array/Cube_6
+        weight: 1
+      - path: Array/Cube_7
+        weight: 1
+      - path: Array/Cube_8
+        weight: 1
+      - path: Array/Cube_9
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
